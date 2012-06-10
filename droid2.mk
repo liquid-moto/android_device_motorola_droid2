@@ -72,7 +72,7 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 # Inherit from droid2 device
 $(call inherit-product, device/motorola/droid2/device.mk)
 
-PRODUCT_NAME := full_droid2
+PRODUCT_NAME := liquid_droid2
 PRODUCT_DEVICE := droid2
 PRODUCT_BRAND := verizon
 PRODUCT_MODEL := DROID2
