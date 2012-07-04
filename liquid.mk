@@ -5,7 +5,7 @@ PRODUCT_RELEASE_NAME := DROID2
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 # device
-#$(call inherit-product-if-exists, device/motorola/droid2/droid2.mk)
+$(call inherit-product-if-exists, device/motorola/droid2/droid2.mk)
 
 # products
 PRODUCT_DEVICE := droid2
